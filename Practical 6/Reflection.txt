@@ -1,0 +1,4 @@
+I can easily use numpy and matplotlib and generate images.
+But it is still hard for me to use functions such as "np.where()" and "np.random.choice()"
+So I should know about more fuctions.
+The most important thing I learned is when we write code, we should describe the task in detail and write out the specific pseudocode.
