@@ -9,10 +9,10 @@ def main():
     tata_pattern = re.compile(r'TATA[AT]A[AT]')  # TATAWAW pattern
     output = []
 
-    with open('Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa', 'r') as infile:
+    with open(r'C:\Users\ASUS\Desktop\Github\IBI1_2024-25\Practical7\spliced_tata_genes.py', 'r') as infile:
         current_gene, current_seq = None, []
         for line in infile:
-            if line.startswith('>'):
+            if re.search('>',line):
                 # Process the previous gene
                 if current_gene:
                     seq = ''.join(current_seq)
