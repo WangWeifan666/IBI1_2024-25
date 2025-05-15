@@ -22,7 +22,7 @@ print(W)
 '''
 Truth table for W:
 X     | Y     | W
-------------------------------------------------
+-----------------------
 True  | True  | True
 True  | False | False
 False | True  | False
