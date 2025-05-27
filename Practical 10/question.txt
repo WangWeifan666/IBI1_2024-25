@@ -1,0 +1,2 @@
+Question: How do DALYs trends compare between China and India?
+The related code is in line 64-78
