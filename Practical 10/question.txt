@@ -1,5 +1,7 @@
 Question: How do DALYs trends compare between China and India? (Draw a plot of DLAYs of China and India)
+
 The related code is in line 64-78
+
 Result :
 The DLAYs in both China and India decreased from 1990 to 2019. 
 The DLAYs value in India was always higher than that in China, and the rate of decline in India was faster.
